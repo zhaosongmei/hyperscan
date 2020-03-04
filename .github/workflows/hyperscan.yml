@@ -10,21 +10,38 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: sssssssxiamian
-    - run: cd ..
-    - run: sudo apt-get install libboost-dev
-    - run: wget http://www.colm.net/files/ragel/ragel-6.10.tar.gz
-    - run: tar -zxf ragel-6.10.tar.gz
-    - run: cd ./ragel-6.10
-    - run: sudo ./configure
-    - run: sudo make -j16
-    - run: sudo make install
-    - run: cd ../
-    - run: wget https://ftp.pcre.org/pub/pcre/pcre-8.41.tar.gz
-    - run: tar -zxvf pcre-8.41.tar.gz
-    - run: sudo cp -rf ./pcre-8.41 ./hyperscan/pcre
-    - run: cd ./hyperscan
-    - run: rm -rf build
-    - run: mkdir build
-    - run: cd build
-    - run: cmake ..
-    - run: make -j8
+      run: cd ..
+    - name: sssssssxiamian
+      run: sudo apt-get install libboost-dev
+    - name: sssssssxiamian
+      run: wget http://www.colm.net/files/ragel/ragel-6.10.tar.gz
+    - name: sssssssxiamian
+      run: tar -zxf ragel-6.10.tar.gz
+    - name: sssssssxiamian
+      run: cd ./ragel-6.10
+    - name: sssssssxiamian
+      run: sudo ./configure
+    - name: sssssssxiamian
+      run: sudo make -j16
+    - name: sssssssxiamian
+      run: sudo make install
+    - name: sssssssxiamian
+      run: cd ../
+    - name: sssssssxiamian
+      run: wget https://ftp.pcre.org/pub/pcre/pcre-8.41.tar.gz
+    - name: sssssssxiamian
+      run: tar -zxvf pcre-8.41.tar.gz
+    - name: sssssssxiamian
+      run: sudo cp -rf ./pcre-8.41 ./hyperscan/pcre
+    - name: sssssssxiamian
+      run: cd ./hyperscan
+    - name: sssssssxiamian
+      run: rm -rf build
+    - name: sssssssxiamian
+      run: mkdir build
+    - name: sssssssxiamian
+      run: cd build
+    - name: sssssssxiamian
+      run: cmake ..
+    - name: sssssssxiamian
+      run: make -j8
